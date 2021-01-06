@@ -6,6 +6,9 @@
                 Blank Page
                 <small>Subheading</small>
             </h1>
+
+            <?php $database->connection ? "true" : "false"; ?>
+
             <ol class="breadcrumb">
                 <li>
                     <i class="fa fa-dashboard"></i> <a href="index.html">Dashboard</a>
