@@ -3,11 +3,13 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
-                Blank Page
+                Admin
                 <small>Subheading</small>
             </h1>
 
-            <?php $database->connection ? "true" : "false"; ?>
+            <?php if($database->connection){
+                 echo "true";
+            } ?>
 
             <ol class="breadcrumb">
                 <li>
