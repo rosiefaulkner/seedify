@@ -1,4 +1,4 @@
 <?php
-include("new_config.php");
+include("functions.php");
 include("database.php");
-include("user.php");
+//include("user.php");
